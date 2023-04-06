@@ -26,7 +26,7 @@ const QuoteController = {
     });
   },
 
-  addQuote: (req, res) => {
+  createQuote: (req, res) => {
     const quote = new Quote(req.body);
     quote.save((err, newQuote) => {
       if (err) {

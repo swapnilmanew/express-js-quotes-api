@@ -1,6 +1,7 @@
 const express = require('express');
 const app = express();
 const port = 3010;
+const mongoose = require('mongoose');
 
 const quoteRoutes = require('./api/routes/quote_routes.js');
 
