@@ -1,4 +1,4 @@
-const Quote = require('./models/quote');
+const Quote = require('../models/quote_model.js');
 
 const QuoteController = {
   getAllQuotes: (req, res) => {
